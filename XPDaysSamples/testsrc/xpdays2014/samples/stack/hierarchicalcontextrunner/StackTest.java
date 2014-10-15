@@ -105,7 +105,7 @@ public class StackTest {
         }
 
         @Test
-        public void givenStackWithOneTwoPushed_FindOneAndTwo() throws Exception {
+        public void findOneAndTwo() throws Exception {
           int oneIndex = stack.find(1);
           int twoIndex = stack.find(2);
           assertEquals(1, oneIndex);
